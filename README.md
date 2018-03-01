@@ -1,11 +1,17 @@
 # `paip-lisp`
-# Code for *Paradigms of Artificial Intelligence Programming* 
+# *Paradigms of Artificial Intelligence Programming* 
 
 ![PAIP](https://norvig.com/paip-cover.gif)
 
-This is the repository for the Lisp source code files
-for the book *Paradigms of Artificial
-Intelligence Programming: Case Studies in Common Lisp* by Peter Norvig (1992).  As seen on [TV](https://norvig.com/paip-tv.html). Also: [errata](https://norvig.com/paip-errata.html), [comments](https://norvig.com/paip-comments.html), [preface](https://norvig.com/paip-preface.html), [retrospective](https://norvig.com/Lisp-retro.html).
+This is the repository for the book *Paradigms of Artificial
+Intelligence Programming: Case Studies in Common Lisp* by Peter Norvig (1992).  Here you'll find:
+
+- A directory of all the [Lisp code](https://github.com/norvig/paip-lisp/tree/master/lisp) from the book.
+- A `pdf` of the book, split into two parts (because GitHub can't handle big files) covering Chapters 1-14 ([PAIP-part1.pdf](https://github.com/norvig/paip-lisp/blob/master/PAIP-part1.pdf)) and 15-25 ([PAIP-part2.pdf](https://github.com/norvig/paip-lisp/blob/master/PAIP-part2.pdf)). The copyright has recently reverted to me, and I choose to share it under MIT license.
+- A rough `txt` export, from the pdf, [PAIP.txt](https://github.com/norvig/paip-lisp/blob/master/PAIP.txt), containing many errors.
+
+As seen on [TV](https://norvig.com/paip-tv.html). See also: [errata](https://norvig.com/paip-errata.html), [comments](https://norvig.com/paip-comments.html), [preface](https://norvig.com/paip-preface.html), [retrospective](https://norvig.com/Lisp-retro.html).
+
 
 # Running the Code
 
@@ -42,7 +48,6 @@ name, and short description for each file.
 <tr><td>4  <td><a href="lisp/gps.lisp">gps.lisp</a><td>		Final version of General Problem Solver
 <tr><td>5  <td><a href="lisp/eliza1.lisp">eliza1.lisp</a><td>		Basic version of Eliza program
 <tr><td>5  <td><a href="lisp/eliza.lisp">eliza.lisp</a><td>		Eliza with more rules; different reader
-<tr><td>
 <tr><td>6  <td><a href="lisp/patmatch.lisp">patmatch.lisp</a><td>	Pattern Matching Utility
 <tr><td>6  <td><a href="lisp/eliza-pm.lisp">eliza-pm.lisp</a><td>	Version of Eliza using utilities
 <tr><td>6  <td><a href="lisp/search.lisp">search.lisp</a><td>		Search Utility
@@ -50,7 +55,7 @@ name, and short description for each file.
 <tr><td>7  <td><a href="lisp/student.lisp">student.lisp</a><td>		The Student Program
 <tr><td>8  <td><a href="lisp/macsyma.lisp">macsyma.lisp</a><td>		The Macsyma Program
 <tr><td>8  <td><a href="lisp/macsymar.lisp">macsymar.lisp</a><td>	Simplification and integration rules for Macsyma
-<tr><td>9-10	<td> &nbsp; <td>		(no files; important functions in <a href="auxfns.lisp">auxfns.lisp</a>	
+<tr><td>9-10	<td> &nbsp; <td>		(functions from these chapters are in <a href="auxfns.lisp">auxfns.lisp</a>)
 <tr><td>11 <td><a href="lisp/unify.lisp">unify.lisp</a><td>		Unification functions
 <tr><td>11 <td><a href="lisp/prolog1.lisp">prolog1.lisp</a><td>		First version of Prolog interpreter
 <tr><td>11 <td><a href="lisp/prolog.lisp">prolog.lisp</a><td>		Final version of Prolog interpreter
@@ -76,7 +81,7 @@ name, and short description for each file.
 <tr><td>21 <td><a href="lisp/grammar.lisp">grammar.lisp</a><td>		Comprehensive grammar of English
 <tr><td>21 <td><a href="lisp/lexicon.lisp">lexicon.lisp</a><td>		Sample Lexicon of English
 <tr><td>22 <td><a href="lisp/interp1.lisp">interp1.lisp</a><td>		Scheme interpreter, including version with macros
-<tr><td>22 <td><a href="lisp/interp2.lisp">interp2.lisp</a><td>		A tail recurive Scheme interpreter
+<tr><td>22 <td><a href="lisp/interp2.lisp">interp2.lisp</a><td>		A tail recursive Scheme interpreter
 <tr><td>22 <td><a href="lisp/interp3.lisp">interp3.lisp</a><td>		A Scheme interpreter that handles call/cc
 <tr><td>23 <td><a href="lisp/compile1.lisp">compile1.lisp</a><td>	Simple Scheme compiler
 <tr><td>23 <td><a href="lisp/compile2.lisp">compile2.lisp</a><td>	Compiler with tail recursion and primitives
